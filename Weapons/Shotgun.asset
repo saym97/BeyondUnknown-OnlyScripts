@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9eb15c5719379d46b9e59601ae85a70, type: 3}
+  m_Name: Shotgun
+  m_EditorClassIdentifier: 
+  weaponName: Shotgun
+  weaponType: 3
+  range: 20
+  damageAmount: 3
+  bulletsInMagazine: 8
+  magSize: 8
+  currentAmmo: 24
+  maxAmmo: 24
+  automatic: 0
+  fireRate: 0.75
+  reloadTime: 3
+  shotSound: {fileID: 8300000, guid: bb7c162a3c6feb748b3f7d38212f1ce6, type: 3}
+  reloadSound: {fileID: 8300000, guid: e11c1f5d938e5974b92040abff3080b0, type: 3}
+  weaponIcon: {fileID: 21300000, guid: 364206cb355dcf7479b2cdec20b8ec68, type: 3}
+  crossHair: {fileID: 21300000, guid: 7d548da54a27f3444aaeea1cb2caf449, type: 3}
+  kick_back_position: 15
+  kick_back_rotation: 21.3
+  rotation_damping: 5
+  position_damping: 4
+  camera_damp_multiplier: 1

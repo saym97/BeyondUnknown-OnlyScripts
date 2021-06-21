@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 387af141ef2a3644e916d1c8b73d7e06, type: 3}
+  m_Name: Dog Chase
+  m_EditorClassIdentifier: 
+  entryAntion: {fileID: 11400000, guid: 5604a8aa448dfdd48adb3180a9fdb7cb, type: 2}
+  stateActions:
+  - {fileID: 11400000, guid: 4caf1499dde25b4429b75a9fb4d823b6, type: 2}
+  exitAction: {fileID: 0}
+  transitions:
+  - {fileID: 11400000, guid: 2fab6575930c43d46992ab85e430c813, type: 2}
+  - {fileID: 11400000, guid: 671522be80366c441b10377ab58f700c, type: 2}

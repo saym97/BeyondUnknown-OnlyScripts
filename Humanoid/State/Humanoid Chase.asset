@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 387af141ef2a3644e916d1c8b73d7e06, type: 3}
+  m_Name: Humanoid Chase
+  m_EditorClassIdentifier: 
+  entryAntion: {fileID: 11400000, guid: 047fe79b583ddb349958b6b09f2fc9cf, type: 2}
+  stateActions:
+  - {fileID: 11400000, guid: f68e01376c1b55949adae3f4996e6190, type: 2}
+  exitAction: {fileID: 0}
+  transitions:
+  - {fileID: 11400000, guid: b892fe6345fc6ee4398f23ea95ebedd9, type: 2}
+  - {fileID: 11400000, guid: 8e6e01c7dc9b4a74ab19bcfa76045dac, type: 2}

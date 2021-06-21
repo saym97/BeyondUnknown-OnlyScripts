@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61f915e0cc0cd0e489e26ad512a414aa, type: 3}
+  m_Name: Humanoid Patrol to chase
+  m_EditorClassIdentifier: 
+  decision:
+  - {fileID: 11400000, guid: b7759d24c3e2e3b44ae6e73d18063325, type: 2}
+  action: {fileID: 11400000, guid: bb776a2519b1a0a478a46538d10aca71, type: 2}
+  targetState: {fileID: 11400000, guid: 0e6c5b1d69597ac4cb115d8929461045, type: 2}

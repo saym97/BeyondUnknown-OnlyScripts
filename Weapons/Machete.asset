@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9eb15c5719379d46b9e59601ae85a70, type: 3}
+  m_Name: Machete
+  m_EditorClassIdentifier: 
+  weaponName: Machete
+  weaponType: 0
+  range: 5
+  damageAmount: 5
+  bulletsInMagazine: 0
+  magSize: 0
+  currentAmmo: 0
+  maxAmmo: 0
+  automatic: 0
+  fireRate: 1
+  reloadTime: 0
+  shotSound: {fileID: 8300000, guid: c6eb6d640388f2046b4eddfba50dcd57, type: 3}
+  reloadSound: {fileID: 0}
+  weaponIcon: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  crossHair: {fileID: 21300000, guid: b71b9f78c6f3870408a6a325e6546c18, type: 3}
+  kick_back_position: 0
+  kick_back_rotation: 0
+  rotation_damping: 0
+  position_damping: 0
+  camera_damp_multiplier: 0

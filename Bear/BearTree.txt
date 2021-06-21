@@ -1,0 +1,35 @@
+tree("Root")
+	parallel
+		repeat mute tree("Alive")
+		repeat mute tree("Dead")
+
+tree("Alive")
+	while not IsHealthLessThan(0.0)
+		while CanSeePlayer(false)
+			tree("PlayerDetected")
+
+tree("PlayerDetected")
+	sequence
+		Wait(0.5)
+		ChasePlayer
+		//SpeedModifier
+		tree("Attack")
+
+
+tree("Attack")
+	fallback
+		while CanAttack(9.0)
+			sequence
+				StopAgent
+				BiteAttack
+				Wait(2.0)
+		while CanAttack(15.0)
+			sequence
+				ClawAttack
+				Wait(3.0)
+
+
+
+tree("Dead")
+	while IsHealthLessThan(0.0)
+		Dead

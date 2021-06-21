@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 387af141ef2a3644e916d1c8b73d7e06, type: 3}
+  m_Name: Dog Attack
+  m_EditorClassIdentifier: 
+  entryAntion: {fileID: 11400000, guid: 6febc2f62a6584c44997b4fe3b32f3cc, type: 2}
+  stateActions: []
+  exitAction: {fileID: 11400000, guid: 5bb793808f98def4ab31161406fb2767, type: 2}
+  transitions:
+  - {fileID: 11400000, guid: f5b3ce7833c6c6447b5ee6d902032863, type: 2}

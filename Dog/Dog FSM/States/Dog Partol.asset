@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 387af141ef2a3644e916d1c8b73d7e06, type: 3}
+  m_Name: Dog Partol
+  m_EditorClassIdentifier: 
+  entryAntion: {fileID: 11400000, guid: 41f50eb897c74ae4fb8be026c1f355ae, type: 2}
+  stateActions:
+  - {fileID: 11400000, guid: 9a8eb20b1f9c9ee4c855cd2425317c3f, type: 2}
+  exitAction: {fileID: 0}
+  transitions:
+  - {fileID: 11400000, guid: 65eeee5f31ac3ba429a3646c35103e24, type: 2}
+  - {fileID: 11400000, guid: efdf6c7d2b60df94d8dab84a779a99dc, type: 2}

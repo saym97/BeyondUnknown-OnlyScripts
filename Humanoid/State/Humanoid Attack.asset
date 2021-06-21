@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 387af141ef2a3644e916d1c8b73d7e06, type: 3}
+  m_Name: Humanoid Attack
+  m_EditorClassIdentifier: 
+  entryAntion: {fileID: 11400000, guid: 9f264360e4c4eec4e8f954cf3b59fbf5, type: 2}
+  stateActions:
+  - {fileID: 11400000, guid: 94b043a4c5f52174ab2c76c429bc47f2, type: 2}
+  exitAction: {fileID: 11400000, guid: 90e8551705e509e4593181c8c577e626, type: 2}
+  transitions:
+  - {fileID: 11400000, guid: a7f78e30e0b5dad4aaa50e3993eb5e16, type: 2}
